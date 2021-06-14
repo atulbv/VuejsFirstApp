@@ -5,8 +5,7 @@ import Routes from "./routes";
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes: Routes,
-  mode: "history"
+  routes: Routes
 });
 // import Av from "./Atul.vue";
 
